@@ -11,7 +11,7 @@ namespace TonerTakip
     {
         public SqlConnection baglanti()
         {
-            SqlConnection baglan = new SqlConnection(@"Data Source = AEMINTBTH06; Initial Catalog = DboTonerTakip; Integrated Security = True");
+            SqlConnection baglan = new SqlConnection(@"Data Source = BilgisayarAdi; Initial Catalog = DboTonerTakip; Integrated Security = True");
             baglan.Open();
             return baglan;
         }
